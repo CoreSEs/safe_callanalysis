@@ -28,17 +28,16 @@ Demen - dselcan@salesforce.com
 
 ![safe_componentTree](./img/safe_componentTree.png "component tree")
 
-### Installing this package
+### Deploy this to your Org
 
-This package can be install via following links
-
-**_Production Orgs:_** https://login.salesforce.com/packaging/installPackage.apexp?p0=IDTOBEADDED
-
-**_Sandbox Orgs:_** https://test.salesforce.com/packaging/installPackage.apexp?p0=IDTOBEADDED
+<a href="https://github.com/CoreSEs/safe_callanalysis">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
 
 ### Installing it via SFDX
 
 ```shell
-sfdx force:package:install --package "IDTOBEADDED" --wait 10 --publishwait 10
+sfdx force:source:push --forceoverwrite --loglevel fatal --wait 30
 ```
 

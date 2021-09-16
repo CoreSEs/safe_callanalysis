@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StaticResource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <cacheControl>Public</cacheControl>
+    <contentType>text/javascript</contentType>
+    <description>* wavesurfer.js 5.2.0 (2021-08-16)
+* https://wavesurfer-js.org
+* @license BSD-3-Clause</description>
+</StaticResource>

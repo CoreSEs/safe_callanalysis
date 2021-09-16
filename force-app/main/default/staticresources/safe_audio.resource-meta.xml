@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StaticResource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <cacheControl>Public</cacheControl>
+    <contentType>audio/mpeg</contentType>
+    <description>used by safe_wavesurfer and safe_callanalysisContainer lwc. You can upload your own audio file here. Please note that the static resource must be named safe_audio and cache control must be public. Demen Selcan 16th Sep 2021.</description>
+</StaticResource>

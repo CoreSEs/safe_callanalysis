@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <isExposed>false</isExposed>
+    <targets>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="iconName1" type="String" default="action:approval" label="Icon Name 1"/>
+            <property name="iconName2" type="String" default="utility:warning" label="Icon Name 2"/>
+            <property name="iconName3" type="String" default="utility:error" label="Icon Name 3"/>
+            <property name="iconName4" type="String" default="action:approval" label="Icon Name 4"/>
+            <property name="iconName1Label" type="String" default="Introduction" label="Icon Name 1"/>
+            <property name="iconName2Label" type="String" default="Compliance" label="Icon Name 2"/>
+            <property name="iconName3Label" type="String" default="Pace" label="Icon Name 3"/>
+            <property name="iconName4Label" type="String" default="Sign Off" label="Icon Name 4"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

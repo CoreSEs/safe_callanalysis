@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <isExposed>true</isExposed>
+    <description>SAFE: SOUND, ANALYSIS, FEELING - Is a Demo Component for CallAnalysis Demo Component by Demen Selcan</description>
+    <masterLabel>SAFE: Call Analysis</masterLabel>
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <!-- Keywords/Tags -->
+            <property name="callTagLabel1" type="String" default="Pregnancy" label="Tag Label 1"/>
+            <property name="callTagLabel2" type="String" default="Off-Label" label="Tag Label 2"/>
+            <property name="callTagLabel3" type="String" default="Cholecap" label="Tag Label 3"/>
+            <!-- Chat Bubbles -->
+            <property name="firstChatBubble" type="String" default="Good Morning Doctor Stark, this is Linda, I hope you are doing well today. How may I help you? I see that you had created a MIRF earlier today about Cholecap?" label="First Chat Bubble Text"/>
+            <property name="secondChatBubble" type="String" default="Hi Linda, thanks. I hope you are doing well too. That is correct. I have a patient who is pregnant and I couldn't find any on-label information regarding Cholecap during pregnancy. Can we use it off-label for pregant woman?" label="Second Chat Bubble Text"/>
+            <property name="thirdChatBubble" type="String" default="Let me quickly check our Medical Database. Mhhh...yes, we have a match. So it looks like Cholecap can be prescribed to pregnant woman. Let me just send over some documentation regarding Cholecap during pregnancies. Anything else I can help with?" label="Third Chat Bubble Text"/>
+            <property name="fourthChatBubble" type="String" default="Thank you Linda. That would be great. That is it already. Have a great day!" label="Fourth Chat Bubble Text"/>
+            <property name="fifthChatBubble" type="String" default="You too Dr. Stark. Please let me know if there is anything else I can help with" label="Fifth Chat Bubble Text"/>
+            <!-- Compliance Icons -->
+            <property name="iconName1" type="String" default="action:approval" label="Compliance Icon #1"/>
+            <property name="iconName2" type="String" default="utility:warning" label="Compliance Icon #2"/>
+            <property name="iconName3" type="String" default="utility:error" label="Compliance Icon #3"/>
+            <property name="iconName4" type="String" default="action:approval" label="Compliance Icon #4"/>
+            <!-- Compliance Icon Labels -->
+            <property name="iconName1Label" type="String" default="Introduction" label="Icon 1 Label"/>
+            <property name="iconName2Label" type="String" default="Compliance" label="Icon 2 Label"/>
+            <property name="iconName3Label" type="String" default="Pace" label="Icon 3 Label"/>
+            <property name="iconName4Label" type="String" default="Sign Off" label="Icon 4 Label"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

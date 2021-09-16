@@ -1,0 +1,39 @@
+<template>
+    <article class="slds-card">
+        <div class="slds-grid slds-einstein-header slds-card__header">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-grid slds-grid_vertical-align-center slds-size_3-of-4 slds-medium-size_2-of-3">
+                    <div class="slds-media__body">
+                        <h2 class="slds-truncate" title="Einstein (10+)">
+                            <div class="slds-card__header-link" title="Einstein (10+)">
+                                <span class="slds-text-heading_small">Sentiment Analysis</span>
+                            </div>
+                        </h2>
+                    </div>
+                </div>
+                <div class="slds-einstein-header__figure slds-size_1-of-4 slds-medium-size_1-of-3"></div>
+            </header>
+        </div>
+        <div class="slds-card__body slds-card__body_inner">
+            <div class="body">
+                <div class="clm">
+                    <div class="img-icons" style="background-image:url('/resource/safe_sentiment_positive?')"></div>
+                    <div data-id="positive" class="overlay-color" style="background-color: green;"></div>
+                    <p class="slds-p-horizontal_small">{positivePercentage}%</p>
+                </div>
+                <div class="clm">
+                    <div class="img-icons" style="background-image:url('/resource/safe_sentiment_neutral?')"></div>
+                    <div data-id="neutral" class="overlay-color" style="background-color: orange;"></div>
+                    <p class="slds-p-horizontal_small">{neutralPercentage}%</p>
+                </div>
+                <div class="clm">
+                    <div class="img-icons" style="background-image:url('/resource/safe_sentiment_negative?')"></div>
+                    <div data-id="negative" class="overlay-color" style="background-color: red;"></div>
+                    <p class="slds-p-horizontal_small">{negativePercentage}%</p>
+                </div>
+            </div>
+        </div>
+        <footer class="slds-card__footer">
+        </footer>
+    </article>
+</template>

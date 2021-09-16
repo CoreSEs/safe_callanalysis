@@ -27,6 +27,10 @@
             <property name="iconName2" type="String" default="utility:warning" label="Compliance Icon #2"/>
             <property name="iconName3" type="String" default="utility:error" label="Compliance Icon #3"/>
             <property name="iconName4" type="String" default="action:approval" label="Compliance Icon #4"/>
+            <!-- Sentiment Percentages -->
+            <property name="positivePercentage" type="String" default="80" label="Sentiment Positive"/>
+            <property name="neutralPercentage" type="String" default="15" label="Sentiment Neutral"/>
+            <property name="negativePercentage" type="String" default="5" label="Sentiment Negative"/>
             <!-- Compliance Icon Labels -->
             <property name="iconName1Label" type="String" default="Introduction" label="Icon 1 Label"/>
             <property name="iconName2Label" type="String" default="Compliance" label="Icon 2 Label"/>

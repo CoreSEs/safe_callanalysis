@@ -1,18 +1,44 @@
-# Salesforce DX Project: Next Steps
+## SAFE Call Analysis: SOUND, ANALYSIS, FEELING Demo Component
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+SAFE Call Analysis is a Demo Component which mocks a call coaching/analysis component. You can upload, visualize and play fictive conversations between a call center agent and a client e.g. Doctor or Patient.
 
-## How Do You Plan to Deploy Your Changes?
+This helps showing how conceptual audio transcriptions and sentiment analysises can be conducted with Einstein Voice or Einstein Call Coaching for example.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Best of all - it is completely configurable via the Lightning Page Layout Builder without the need to change a single line of code.
 
-## Configure Your Salesforce DX Project
+Check out the documentation for more Information. Looking forward to your feedback.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+Demen - dselcan@salesforce.com
 
-## Read All About It
+## Documentation
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+[Documentation](https://salesforce.quip.com/p1GNA9b0kKq2 "Documentation")
+
+
+### Team
+
+![safe_callanalysis Team](./img/safe_team.png "Team")
+
+
+### SAFE - Call Analytics in Action
+
+![safe_callanalysis Logo](./img/safe_callanalysis_logo.png "Logo")
+
+#### Component Tree
+
+![safe_componentTree](./img/safe_componentTree.png "component tree")
+
+### Installing this package
+
+This package can be install via following links
+
+**_Production Orgs:_** https://login.salesforce.com/packaging/installPackage.apexp?p0=IDTOBEADDED
+
+**_Sandbox Orgs:_** https://test.salesforce.com/packaging/installPackage.apexp?p0=IDTOBEADDED
+
+### Installing it via SFDX
+
+```shell
+sfdx force:package:install --package "IDTOBEADDED" --wait 10 --publishwait 10
+```
+

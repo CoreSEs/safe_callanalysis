@@ -1,4 +1,4 @@
-import { LightningElement, api, track } from 'lwc';
+import { LightningElement, api } from 'lwc';
 
 export default class Safe_callanalysisContainer extends LightningElement {
     //chat bubble Section Design Parameters
@@ -23,4 +23,8 @@ export default class Safe_callanalysisContainer extends LightningElement {
     @api callTagLabel2;
     @api callTagLabel3;
 
+    //Sentiment Values
+    @api positivePercentage;
+    @api neutralPercentage;
+    @api negativePercentage;
 }

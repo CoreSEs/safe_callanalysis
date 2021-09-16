@@ -30,7 +30,7 @@ Demen - dselcan@salesforce.com
 
 ### Deploy this to your Org
 
-<a href="https://github.com/CoreSEs/safe_callanalysis">
+<a href="https://githubsfdeploy.herokuapp.com?owner=CoreSEs&repo=safe_callanalysis">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>

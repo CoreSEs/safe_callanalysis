@@ -12,7 +12,7 @@ Demen - dselcan@salesforce.com
 
 ## Documentation
 
-[Documentation](https://salesforce.quip.com/p1GNA9b0kKq2 "Documentation")
+[Documentation](https://salesforce.quip.com/7u94AvL9C816 "Documentation")
 
 
 ### Team

@@ -7,6 +7,10 @@ export default class Safe_callanalysisContainer extends LightningElement {
     @api thirdChatBubble;
     @api fourthChatBubble;
     @api fifthChatBubble;
+
+    //section labels
+    @api labelSentimentSection;
+    @api labelComplianceSection;
     
     //compliance Section Design Parameters
     @api iconName1;

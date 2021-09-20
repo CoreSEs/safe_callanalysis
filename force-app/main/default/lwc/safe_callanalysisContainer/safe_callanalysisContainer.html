@@ -84,7 +84,7 @@
     <!-- Chat Session End -->
 
     <!-- Sentiment Meter Section -->
-    <c-safe_expandable-section open=false label="Sentiment">
+    <c-safe_expandable-section open=false label={labelSentimentSection}>
         <c-safe_einstein-sentiment positive-percentage={positivePercentage} neutral-percentage={neutralPercentage}
             negative-percentage={negativePercentage}>
         </c-safe_einstein-sentiment>
@@ -92,7 +92,7 @@
     <!-- Sentiment Section End -->
 
     <!-- Compliance Section -->
-    <c-safe_expandable-section open=false label="Compliance">
+    <c-safe_expandable-section open=false label={labelComplianceSection}>
         <c-safe_compliance-policies icon-name1={iconName1} icon-name1-label={iconName1Label} icon-name2={iconName2}
             icon-name2-label={iconName2Label} icon-name3={iconName3} icon-name3-label={iconName3Label}
             icon-name4={iconName4} icon-name4-label={iconName4Label}>
